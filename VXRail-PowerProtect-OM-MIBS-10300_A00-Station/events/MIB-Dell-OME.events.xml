@@ -1,0 +1,332 @@
+<events xmlns="http://xmlns.opennms.org/xsd/eventconf">
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>1</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeTestAlert</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeTestAlert</event-label>
+      <descr>
+&lt;p>Test alert forwarded from OM Essentials.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertSeverity&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeTestAlert trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertSeverity=%parm[#3]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>1000</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertSystemUp</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertSystemUp</event-label>
+      <descr>
+&lt;p>System up message from OM Essentials. Sent when OM Essentials detects a device has come online.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertSystemUp trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>1001</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertSystemDown</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertSystemDown</event-label>
+      <descr>
+&lt;p>System down message from OM Essentials. Sent when OM Essentials detects a device has gone offline.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertSystemDown trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>2000</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertForwardedAlert</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertForwardedAlert</event-label>
+      <descr>
+&lt;p>Forwarded alert from OM Essentials. The event may have originated as an SNMP trap or CIM indication to the OM Essentials Console. The alert format is normalized.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertSeverity&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertForwardedAlert trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertSeverity=%parm[#3]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>3001</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertUnknownStatus</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertUnknownStatus</event-label>
+      <descr>
+&lt;p>System monitoring alert from Essentials. Sent when status of the remote device is Unknown.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDataSources&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeRawAlertInfo&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertUnknownStatus trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertDataSources=%parm[#3]%
+	omeRawAlertInfo=%parm[#4]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>3002</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertNormalStatus</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertNormalStatus</event-label>
+      <descr>
+&lt;p>System monitoring alert from Essentials. Sent when status of the remote device is Normal.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDataSources&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeRawAlertInfo&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertNormalStatus trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertDataSources=%parm[#3]%
+	omeRawAlertInfo=%parm[#4]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>3003</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertWarningStatus</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertWarningStatus</event-label>
+      <descr>
+&lt;p>System monitoring alert from Essentials. Sent when status of the remote device is Warning.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDataSources&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeRawAlertInfo&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertWarningStatus trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertDataSources=%parm[#3]%
+	omeRawAlertInfo=%parm[#4]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.1000.100.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>3004</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/MIB-Dell-OME/omeAlertCriticalStatus</uei>
+      <event-label>MIB-Dell-OME defined trap event: omeAlertCriticalStatus</event-label>
+      <descr>
+&lt;p>System monitoring alert from Essentials. Sent when status of the remote device is Critical.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertMessage&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDevice&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeAlertDataSources&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	omeRawAlertInfo&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	omeAlertCriticalStatus trap received
+	omeAlertMessage=%parm[#1]%
+	omeAlertDevice=%parm[#2]%
+	omeAlertDataSources=%parm[#3]%
+	omeRawAlertInfo=%parm[#4]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+</events>

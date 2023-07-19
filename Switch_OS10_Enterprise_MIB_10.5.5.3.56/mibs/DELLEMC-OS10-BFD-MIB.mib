@@ -1,0 +1,167 @@
+
+-- *****************************************************************
+-- DELLEMC-OS10-BFD-MIB
+--
+--
+-- Copyright (c) 2022 by Dell Inc.
+-- All rights reserved.
+-- *****************************************************************
+
+	DELLEMC-OS10-BFD-MIB DEFINITIONS ::= BEGIN
+    --  This module provides authoritative definitions for Dell Networking OS10
+    --  BFD MIB.
+    --
+    --  This module will be extended, as needed.
+    --
+
+    IMPORTS
+
+	MODULE-IDENTITY, OBJECT-TYPE, NOTIFICATION-TYPE,
+        Counter32, Gauge32, Unsigned32
+            FROM SNMPv2-SMI
+	os10Experiment
+	    FROM DELLEMC-OS10-SMI-MIB
+        InetAddressType, InetAddress, InetPortNumber,
+        InetAutonomousSystemNumber, InetAddressPrefixLength
+            FROM INET-ADDRESS-MIB
+        TruthValue, RowPointer, TimeStamp, TEXTUAL-CONVENTION, DisplayString
+            FROM SNMPv2-TC
+        MODULE-COMPLIANCE, OBJECT-GROUP, NOTIFICATION-GROUP
+            FROM SNMPv2-CONF
+        SnmpAdminString
+            FROM SNMP-FRAMEWORK-MIB;
+
+        os10BfdMib MODULE-IDENTITY
+            LAST-UPDATED "202206161200Z"
+            ORGANIZATION "Dell"
+            CONTACT-INFO "http://www.dell.com/support"
+            DESCRIPTION
+                    "The MIB module for the BFD notifications.
+                     This MIB updates and replaces the bfdNotifications part of BFD MIB defined in
+                    RFC 7331."
+            ::= { os10Experiment 2 }
+
+    Os10BfdDiagTC ::= TEXTUAL-CONVENTION
+        STATUS       current
+        DESCRIPTION
+            "A common BFD diagnostic code."
+        REFERENCE
+            "Katz, D. and D. Ward, Bidirectional Forwarding
+             Detection (BFD), RFC 5880, June 2010.
+
+             Allan, D., Swallow, G., and Drake, J., Proactive Connectivity
+             Verification, Continuity Check, and Remote Defect
+             Indication for the MPLS Transport Profile, RFC 6428,
+             November 2011."
+
+        SYNTAX INTEGER {
+            noDiagnostic(0),
+            controlDetectionTimeExpired(1),
+            echoFunctionFailed(2),
+            neighborSignaledSessionDown(3),
+            forwardingPlaneReset(4),
+            pathDown(5),
+            concatenatedPathDown(6),
+            administrativelyDown(7),
+            reverseConcatenatedPathDown(8),
+            misConnectivityDefect(9)
+        }
+
+    Os10BfdSessIndexTC ::= TEXTUAL-CONVENTION
+        DISPLAY-HINT   "d"
+        STATUS         current
+        DESCRIPTION
+            "An index used to uniquely identify BFD sessions."
+        SYNTAX Unsigned32 (1..4294967295)
+
+    -- Top level components of this MIB module
+
+    -- Notifications
+    os10bfdNotifications OBJECT IDENTIFIER ::= { os10BfdMib 0 }
+
+    -- Objects
+    os10bfdObjects OBJECT IDENTIFIER ::= { os10BfdMib 1 }
+    
+    os10BfdSessIndex OBJECT-TYPE
+        SYNTAX     Os10BfdSessIndexTC
+        MAX-ACCESS not-accessible
+        STATUS     current
+        DESCRIPTION
+            "This object contains an index used to represent a
+             unique BFD session on this device."
+        ::= { os10bfdObjects 1 }
+
+    os10BfdSessDiag OBJECT-TYPE
+        SYNTAX     Os10BfdDiagTC
+        MAX-ACCESS read-only
+        STATUS     current
+        DESCRIPTION
+            "A diagnostic code specifying the local system's reason
+             for the last transition of the session from UP/DOWN 
+             to some other state."
+        ::= { os10bfdObjects 2 }
+
+    os10BfdSessVrfName OBJECT-TYPE
+        SYNTAX     DisplayString (SIZE (0..32))
+        MAX-ACCESS read-only
+        STATUS     current
+        DESCRIPTION
+            "Name of the VRF the BFD session belongs to."
+        ::= { os10bfdObjects 3 }
+
+    os10BfdSessRemoteAddr OBJECT-TYPE
+        SYNTAX     DisplayString (SIZE (0..32))
+        MAX-ACCESS read-only
+        STATUS     current
+        DESCRIPTION
+            "IP address of the BFD neighbor."
+        ::= { os10bfdObjects 4 } 
+
+    os10BfdSessIfName OBJECT-TYPE
+        SYNTAX     DisplayString (SIZE (0..32))
+        MAX-ACCESS read-only
+        STATUS     current
+        DESCRIPTION
+            "Interface name of the BFD session."
+        ::= { os10bfdObjects 5 }
+
+-- Notification Configuration
+
+    os10BfdSessUp NOTIFICATION-TYPE
+        OBJECTS {
+            os10BfdSessIndex,
+            os10BfdSessDiag,
+            os10BfdSessRemoteAddr,
+            os10BfdSessIfName,
+            os10BfdSessVrfName
+        }   
+        STATUS     current
+        DESCRIPTION
+            "This notification is generated when the
+             bfd session's state is about to enter the UP 
+             state from some other state.  The included value of
+             os10BfdSessDiag MUST be set equal to this
+             new state (i.e.,no-diag(0)). The os10BfdSessIndex 
+             MUST point to the BFD session identifier"
+        ::= { os10bfdNotifications 1 }
+
+    bfdSessDown NOTIFICATION-TYPE
+        OBJECTS {
+            os10BfdSessIndex,
+            os10BfdSessDiag,
+            os10BfdSessRemoteAddr,
+            os10BfdSessIfName,
+            os10BfdSessVrfName
+        }
+        STATUS     current
+        DESCRIPTION
+            "This notification is generated when the
+             bfd session's state is about to enter the DOWN 
+             state from some other state.  The included value of
+             os10BfdSessDiag MUST be set equal to this
+             new state (i.e.,path-down(5) or admin-down(7)).
+             The os10BfdSessIndex  MUST point to the BFD 
+             session identifier"
+        ::= { os10bfdNotifications 2 }
+
+    END

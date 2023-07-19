@@ -1,0 +1,757 @@
+<events xmlns="http://xmlns.opennms.org/xsd/eventconf">
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>1</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorTempHigh</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorTempHigh</event-label>
+      <descr>
+&lt;p>The agent generates this trap when the
+             chassis's temperature is exceeding the minor threshold.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorTempHigh trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>2</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorTempClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorTempClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when the
+             chassis's temperature is within the minor threshold.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorTempClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>3</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorTempHigh</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMajorTempHigh</event-label>
+      <descr>
+&lt;p>The agent generates this trap when the
+             chassis's temperature is exceeding the mjaor threshold.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMajorTempHigh trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>4</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorTempClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMajorTempClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when the
+             chassis's temperature is within the mjaor threshold.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMajorTempClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>5</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmPowerSupplyDown</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmPowerSupplyDown</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply is not operational.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmPowerSupplyDown trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmPowerSupplyClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmPowerSupplyClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply is now operational.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmPowerSupplyClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>7</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorPowerSupply</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMajorPowerSupply</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply major alarm is issued.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMajorPowerSupply trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>8</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorPowerSupplyClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMajorPowerSupplyClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply major alarm is cleared.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMajorPowerSupplyClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>9</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorPowerSupply</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorPowerSupply</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply minor alarm is issued.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorPowerSupply trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>10</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorPowerSupplyClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorPowerSupplyClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             power supply minor alarm is cleared.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorPowerSupplyClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>11</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmFanTrayDown</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmFanTrayDown</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             fan tray is missing  or not operational.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmFanTrayDown trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>12</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmFanTrayClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmFanTrayClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             fan tray is now operational.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmFanTrayClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>13</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorFanTray</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorFanTray</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             minor fan tray alarm is issued.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorFanTray trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>14</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorFanTrayClr</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmMinorFanTrayClr</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             theminor fan tray alarm is cleared.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarInteger&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarChassisId&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarSlot&lt;/b>&lt;/td>&lt;td>
+	%parm[#4]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
+	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmMinorFanTrayClr trap received
+	os10AlmVarInteger=%parm[#1]%
+	os10AlmVarString=%parm[#2]%
+	os10AlmVarChassisId=%parm[#3]%
+	os10AlmVarSlot=%parm[#4]%
+	os10AlmVarPort=%parm[#5]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.4.1.674.11000.5000.100.4.1.3.1</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>35</mevalue>
+         </maskelement>
+      </mask>
+      <uei>uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmCopyConfigCompleted</uei>
+      <event-label>DELLEMC-OS10-CHASSIS-MIB defined trap event: os10AlmCopyConfigCompleted</event-label>
+      <descr>
+&lt;p>The agent generates this trap when a
+             copy config operation is completed.&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarLevel&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarIndex&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	os10AlmVarString&lt;/b>&lt;/td>&lt;td>
+	%parm[#3]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	os10AlmCopyConfigCompleted trap received
+	os10AlmVarLevel=%parm[#1]%
+	os10AlmVarIndex=%parm[#2]%
+	os10AlmVarString=%parm[#3]%&lt;/p>
+	</logmsg>
+      <severity>Indeterminate</severity>
+   </event>
+</events>
