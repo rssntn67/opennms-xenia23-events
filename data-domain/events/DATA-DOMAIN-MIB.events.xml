@@ -5361,7 +5361,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -5402,7 +5403,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -5524,7 +5526,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -5810,7 +5813,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -5853,7 +5857,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -5895,7 +5900,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -6347,7 +6352,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6831,7 +6837,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6871,7 +6878,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6912,7 +6920,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6955,7 +6964,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6995,7 +7005,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -7037,7 +7048,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -7124,7 +7136,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -7438,7 +7451,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
@@ -7653,7 +7666,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -7779,7 +7793,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -7822,7 +7837,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
@@ -7863,7 +7878,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
@@ -8045,7 +8060,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
@@ -8350,7 +8365,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -8391,7 +8407,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8432,7 +8448,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -8474,7 +8491,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -8514,7 +8532,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -8554,7 +8573,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -8605,7 +8625,7 @@
 	systemSerialNumber=%parm[#1]%
 	replStatus=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="connected"/>
@@ -8665,7 +8685,7 @@
 	systemSerialNumber=%parm[#1]%
 	replStatus=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="connected"/>
@@ -8716,7 +8736,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8756,7 +8776,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8797,7 +8817,7 @@
 	systemSerialNumber=%parm[#1]%
 	replConfigDest=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8837,7 +8857,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8877,7 +8897,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8917,7 +8937,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -8968,7 +8988,7 @@
 	systemSerialNumber=%parm[#1]%
 	replStatus=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="connected"/>
@@ -9227,7 +9247,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9268,7 +9289,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9308,7 +9330,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9348,7 +9371,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9389,7 +9413,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9512,7 +9537,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -9554,7 +9580,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
@@ -9635,7 +9661,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -9678,7 +9704,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -10033,7 +10060,7 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -10074,7 +10101,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
