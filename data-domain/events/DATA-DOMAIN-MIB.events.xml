@@ -3497,7 +3497,8 @@
 	systemSerialNumber=%parm[#1]%
 	alertInfoDescription=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
