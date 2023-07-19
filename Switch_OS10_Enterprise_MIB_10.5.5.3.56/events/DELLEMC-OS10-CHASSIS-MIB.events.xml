@@ -40,7 +40,7 @@
 	os10AlmVarPort&lt;/b>&lt;/td>&lt;td>
 	%parm[#5]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
 	</descr>
-      <logmsg dest="logndisplay">&lt;p>
+    <logmsg dest="logndisplay">&lt;p>
 	os10AlmMinorTempHigh trap received
 	os10AlmVarInteger=%parm[#1]%
 	os10AlmVarString=%parm[#2]%
@@ -48,7 +48,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Minor</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -99,7 +100,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorTempHigh:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -150,7 +152,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Major</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -201,7 +204,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorTempHigh:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -252,7 +256,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Critical</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -303,7 +308,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmPowerSupplyDown:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/> 
    </event>
    <event>
       <mask>
@@ -354,7 +360,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Major</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -405,7 +412,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMajorPowerSupply:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -456,7 +464,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Minor</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -507,7 +516,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorPowerSupply:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -558,7 +568,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Critical</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -609,7 +620,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmFanTrayDown:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -660,7 +672,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Minor</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -711,7 +724,8 @@
 	os10AlmVarSlot=%parm[#4]%
 	os10AlmVarPort=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+    <severity>Normal</severity>
+	<alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%" alarm-type="2" auto-clean="false" clear-key="uei.opennms.org/traps/DELLEMC-OS10-CHASSIS-MIB/os10AlmMinorFanTray:%dpname%:%nodeid%:%parm[#3]%:%parm[#4]%:%parm[#5]%"/>
    </event>
    <event>
       <mask>
@@ -752,6 +766,6 @@
 	os10AlmVarIndex=%parm[#2]%
 	os10AlmVarString=%parm[#3]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
 </events>
