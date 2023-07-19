@@ -61,6 +61,7 @@
 	tempSensorDescription=%parm[#1]%&lt;/p>
 	</logmsg>
       <severity>Warning</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -97,6 +98,7 @@
 	tempSensorDescription=%parm[#1]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -858,7 +860,8 @@
       <logmsg dest="logndisplay">&lt;p>
 	clusterNodeAlarm trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -885,7 +888,8 @@
       <logmsg dest="logndisplay">&lt;p>
 	clusterInterfaceAlarm trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -960,7 +964,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	systemStartupAlarm trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -986,7 +990,8 @@
       <logmsg dest="logndisplay">&lt;p>
 	filesysRelaunchAlarm trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1012,7 +1017,8 @@
       <logmsg dest="logndisplay">&lt;p>
 	filesysDDGCFailedAlarm trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
