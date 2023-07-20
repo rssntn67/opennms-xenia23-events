@@ -33,7 +33,7 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -68,7 +68,7 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -104,7 +104,7 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -140,7 +140,8 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -176,7 +177,8 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -255,7 +257,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -352,7 +354,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -449,7 +451,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -546,7 +548,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -643,7 +646,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -740,7 +744,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -837,7 +841,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -934,7 +938,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1031,7 +1035,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1128,7 +1133,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1225,7 +1231,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1322,7 +1328,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1419,7 +1425,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1516,7 +1522,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1613,7 +1620,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1710,7 +1718,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1807,7 +1815,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1904,7 +1912,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2001,7 +2009,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2098,7 +2107,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2195,7 +2205,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2292,7 +2302,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2389,7 +2399,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2486,7 +2496,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2583,7 +2594,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2680,7 +2692,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2777,7 +2789,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2874,7 +2886,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2971,7 +2983,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3068,7 +3081,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3165,7 +3179,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3262,7 +3276,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3359,7 +3373,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3456,7 +3470,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3553,7 +3568,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3650,7 +3666,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3747,7 +3763,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3844,7 +3860,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3941,7 +3957,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4038,7 +4055,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4135,7 +4153,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4232,7 +4250,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4329,7 +4347,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4426,7 +4444,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4523,7 +4542,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4620,7 +4640,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4717,7 +4737,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4814,7 +4834,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4911,7 +4931,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5008,7 +5029,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5105,7 +5127,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5202,7 +5224,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5299,7 +5322,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5396,7 +5420,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5493,7 +5517,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5590,7 +5614,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5687,7 +5712,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5784,7 +5809,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5881,7 +5906,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5978,7 +6004,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6075,7 +6101,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6172,7 +6198,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6269,7 +6296,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6366,7 +6393,7 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6463,7 +6490,8 @@
 	currentStatusEvent=%parm[#7]%
 	previousStatusEvent=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6537,7 +6565,7 @@
 	serviceTagEvent=%parm[#5]%
 	chassisServiceTagEvent=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -6592,7 +6620,7 @@
 	serviceTagEvent=%parm[#5]%
 	chassisServiceTagEvent=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -6648,7 +6676,7 @@
 	serviceTagEvent=%parm[#5]%
 	chassisServiceTagEvent=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -6704,7 +6732,8 @@
 	serviceTagEvent=%parm[#5]%
 	chassisServiceTagEvent=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6760,7 +6789,8 @@
 	serviceTagEvent=%parm[#5]%
 	chassisServiceTagEvent=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -6859,7 +6889,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6976,7 +7006,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7093,7 +7123,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7210,7 +7240,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7327,7 +7358,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7444,7 +7476,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7561,7 +7593,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7678,7 +7710,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7795,7 +7827,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7912,7 +7945,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8029,7 +8063,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8146,7 +8180,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8263,7 +8297,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8380,7 +8414,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8497,7 +8532,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8614,7 +8650,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8731,7 +8767,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8848,7 +8884,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8965,7 +9001,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9082,7 +9119,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9199,7 +9237,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9316,7 +9354,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9433,7 +9471,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9550,7 +9588,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9667,7 +9706,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9784,7 +9824,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9901,7 +9941,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10018,7 +10058,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10135,7 +10175,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10252,7 +10293,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10369,7 +10411,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10486,7 +10528,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10603,7 +10645,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10720,7 +10762,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10837,7 +10880,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10954,7 +10998,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11071,7 +11115,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11188,7 +11232,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11305,7 +11349,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11422,7 +11467,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11539,7 +11585,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11656,7 +11702,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11773,7 +11819,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11890,7 +11936,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12007,7 +12054,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12124,7 +12172,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12241,7 +12289,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12358,7 +12406,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12475,7 +12523,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12592,7 +12641,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12709,7 +12759,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12826,7 +12876,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12943,7 +12994,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13060,7 +13112,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13177,7 +13229,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13294,7 +13346,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13411,7 +13464,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13528,7 +13581,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13645,7 +13698,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13762,7 +13816,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13879,7 +13933,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13996,7 +14050,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14113,7 +14168,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14230,7 +14285,7 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14347,7 +14402,8 @@
 	serviceTagEvent=%parm[#11]%
 	chassisServiceTagEvent=%parm[#12]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#7]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14401,7 +14457,7 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -14437,6 +14493,6 @@
 	messageIDEvent=%parm[#1]%
 	descriptionEvent=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
 </events>
