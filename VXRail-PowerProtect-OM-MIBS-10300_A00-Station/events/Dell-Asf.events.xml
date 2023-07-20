@@ -1862,7 +1862,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapUnderCurrentCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Cleared</severity>
    </event>
    <event>
       <mask>
@@ -1887,7 +1887,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapOverCurrentWarning trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -1912,7 +1912,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapPSNonRedundantSufficientResources trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1937,7 +1937,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapSMBIOSUncorrectableCPU trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
    </event>
    <event>
       <mask>
@@ -1962,7 +1962,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapCpuCorrectableError trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -2037,7 +2037,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleOffline trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -2062,7 +2062,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleOnline trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2087,7 +2087,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleFailure trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
    </event>
    <event>
       <mask>
@@ -2112,7 +2112,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleNormal trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2212,7 +2212,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleRedundancyLost trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
    </event>
    <event>
       <mask>
@@ -2237,7 +2237,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleNotRedundant trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -2262,7 +2262,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapOverUsageSensorWarning trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
    </event>
    <event>
       <mask>
@@ -2287,6 +2287,6 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapSensorUnresponsive trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
    </event>
 </events>
