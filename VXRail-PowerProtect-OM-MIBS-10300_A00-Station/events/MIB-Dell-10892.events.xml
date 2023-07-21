@@ -68,7 +68,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -159,7 +159,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -250,7 +250,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -341,7 +341,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -432,7 +432,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -523,7 +523,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -614,7 +614,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -705,7 +705,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -796,7 +796,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -887,7 +887,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -978,7 +979,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1069,7 +1070,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1160,7 +1161,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1251,7 +1253,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1342,7 +1345,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1433,7 +1436,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1524,7 +1527,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1615,7 +1619,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1706,7 +1711,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1797,7 +1802,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1888,7 +1893,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1979,7 +1985,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2070,7 +2077,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2161,7 +2168,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2252,7 +2259,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2343,7 +2351,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2434,7 +2443,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2525,7 +2534,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2616,7 +2625,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2707,7 +2716,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2798,7 +2807,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2889,7 +2898,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2980,7 +2989,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3071,7 +3081,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3162,7 +3173,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3253,7 +3264,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3344,7 +3355,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3435,7 +3447,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3526,7 +3538,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3617,7 +3629,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3708,7 +3721,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3799,7 +3813,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3890,7 +3904,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3981,7 +3995,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4072,7 +4086,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4163,7 +4177,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4254,7 +4268,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4345,7 +4359,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4436,7 +4450,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4527,7 +4542,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4618,7 +4633,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4709,7 +4724,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4800,7 +4816,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4891,7 +4907,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4982,7 +4999,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5073,7 +5090,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5164,7 +5182,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5255,7 +5273,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5346,7 +5364,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5437,7 +5455,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5528,7 +5546,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5620,7 +5638,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5711,7 +5729,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5802,7 +5820,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5893,7 +5912,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5984,7 +6003,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6075,7 +6094,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6166,7 +6185,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6257,7 +6276,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6348,7 +6367,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6439,7 +6459,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6530,7 +6550,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6621,7 +6641,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6712,7 +6732,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6803,7 +6823,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6894,7 +6914,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6985,7 +7006,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7076,7 +7097,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7167,7 +7188,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7258,7 +7280,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7349,7 +7371,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7440,7 +7462,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7531,7 +7553,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7622,7 +7644,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7713,7 +7735,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7804,7 +7826,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7895,7 +7917,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7986,7 +8008,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8077,7 +8099,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8168,7 +8190,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8259,7 +8281,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8350,7 +8372,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8441,7 +8463,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8532,7 +8554,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8623,7 +8645,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8714,7 +8736,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8805,7 +8828,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8896,7 +8920,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8987,7 +9012,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9078,7 +9104,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9169,7 +9196,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9260,7 +9288,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9351,7 +9380,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9462,7 +9492,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9573,7 +9603,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9684,7 +9714,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9795,7 +9825,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9906,7 +9936,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10017,7 +10047,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10128,7 +10158,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10239,7 +10269,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10350,7 +10380,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10461,7 +10491,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10572,7 +10602,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10683,7 +10713,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10794,7 +10825,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10905,7 +10937,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11016,7 +11048,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11127,7 +11159,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11238,7 +11271,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11349,7 +11383,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11460,7 +11494,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11571,7 +11605,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11682,7 +11717,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11793,7 +11829,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11904,7 +11940,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12015,7 +12051,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12126,7 +12163,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12237,7 +12275,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12348,7 +12386,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12459,7 +12497,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12570,7 +12608,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12681,7 +12719,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12792,7 +12830,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12903,7 +12941,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13014,7 +13052,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13125,7 +13164,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13236,7 +13275,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13347,7 +13386,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13458,7 +13498,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13569,7 +13609,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13680,7 +13720,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13791,7 +13832,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13902,7 +13944,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14013,7 +14055,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14124,7 +14166,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14235,7 +14277,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14346,7 +14388,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14457,7 +14499,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14568,7 +14610,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14679,7 +14721,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14790,7 +14833,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14901,7 +14944,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15012,7 +15055,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15123,7 +15167,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15234,7 +15279,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15345,7 +15390,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15456,7 +15501,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15567,7 +15612,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15678,7 +15723,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15789,7 +15834,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -15900,7 +15945,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16011,7 +16056,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16123,7 +16168,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16234,7 +16279,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16345,7 +16390,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16456,7 +16502,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16567,7 +16613,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16678,7 +16724,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16789,7 +16835,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -16900,7 +16946,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17011,7 +17057,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17122,7 +17169,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17233,7 +17280,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17344,7 +17391,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17455,7 +17502,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17566,7 +17613,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17677,7 +17724,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17788,7 +17836,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -17899,7 +17947,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18010,7 +18058,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18121,7 +18170,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18232,7 +18281,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18343,7 +18392,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18454,7 +18503,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18565,7 +18614,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18676,7 +18725,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18787,7 +18836,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18898,7 +18947,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertServiceTag=%parm[#9]%
 	alertChassisServiceTag=%parm[#10]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -18989,7 +19038,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19080,7 +19129,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19171,7 +19220,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19262,7 +19311,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19353,7 +19402,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19444,7 +19493,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19535,7 +19584,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19626,7 +19675,7 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19717,7 +19766,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19808,7 +19858,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19899,7 +19950,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -19990,7 +20042,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -20081,7 +20134,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -20172,7 +20226,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -20263,7 +20318,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -20354,7 +20410,8 @@ for its AC power switch has been set to non-redundant.&lt;/p>&lt;table>
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
