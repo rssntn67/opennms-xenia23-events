@@ -51,7 +51,7 @@
 	trapCauseDirection=%parm[#3]%
 	trapAdapterActivityCause=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="adapterActive"/>
