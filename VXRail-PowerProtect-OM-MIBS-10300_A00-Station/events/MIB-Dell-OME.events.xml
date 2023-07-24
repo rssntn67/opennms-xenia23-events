@@ -37,7 +37,8 @@
 	omeAlertDevice=%parm[#2]%
 	omeAlertSeverity=%parm[#3]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -72,7 +73,8 @@
 	omeAlertMessage=%parm[#1]%
 	omeAlertDevice=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -107,7 +109,8 @@
 	omeAlertMessage=%parm[#1]%
 	omeAlertDevice=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -147,7 +150,8 @@
 	omeAlertDevice=%parm[#2]%
 	omeAlertSeverity=%parm[#3]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -192,7 +196,8 @@
 	omeAlertDataSources=%parm[#3]%
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -237,7 +242,7 @@
 	omeAlertDataSources=%parm[#3]%
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -282,7 +287,7 @@
 	omeAlertDataSources=%parm[#3]%
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -327,6 +332,7 @@
 	omeAlertDataSources=%parm[#3]%
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
    </event>
 </events>
