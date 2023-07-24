@@ -327,6 +327,7 @@
 	  drsCAMessage=%parm[#8]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -437,7 +438,8 @@
 	  drsCASSChangeTime=%parm[#7]%
 	  drsCAMessage=%parm[#8]%&lt;/p>
       </logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -872,6 +874,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1042,6 +1045,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1382,6 +1386,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1637,6 +1642,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1721,7 +1727,7 @@
 	  drsAlertPreviousStatus=%parm[#5]%
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
-      <severity>Major</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1807,6 +1813,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1892,6 +1899,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1977,6 +1985,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2062,6 +2071,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2248,7 +2258,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2350,7 +2360,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2452,7 +2462,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2555,7 +2566,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2657,7 +2668,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2759,7 +2770,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2861,7 +2873,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2963,7 +2976,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3065,7 +3078,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3167,7 +3181,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3269,7 +3283,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3371,7 +3385,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3473,7 +3488,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3575,7 +3590,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3677,7 +3692,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3779,7 +3795,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3881,7 +3897,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3983,7 +3999,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4085,7 +4102,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4187,7 +4204,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4289,7 +4306,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4391,7 +4409,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4493,7 +4511,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4595,7 +4613,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4697,7 +4716,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4799,7 +4818,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4901,7 +4920,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5003,7 +5023,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5105,7 +5125,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5207,7 +5227,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5309,7 +5329,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5411,7 +5431,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5513,7 +5534,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5615,7 +5637,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5717,7 +5739,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Critical</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5819,7 +5842,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5921,7 +5944,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6023,7 +6046,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major<severity
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6125,7 +6149,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6227,7 +6251,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6329,7 +6353,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6431,7 +6456,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6533,7 +6558,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6635,7 +6660,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6737,7 +6763,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6839,7 +6865,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6941,7 +6967,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7043,7 +7070,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7145,7 +7172,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7247,7 +7275,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7349,7 +7377,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7451,7 +7479,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7553,7 +7582,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7655,7 +7684,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7757,7 +7786,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7859,7 +7889,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7961,7 +7991,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8063,7 +8093,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8165,7 +8196,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8267,7 +8298,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8369,7 +8400,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8471,7 +8503,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8573,7 +8605,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8675,7 +8707,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8777,7 +8810,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8879,7 +8912,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8981,7 +9014,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9083,7 +9117,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9185,7 +9219,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9287,7 +9321,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9389,7 +9424,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9491,7 +9526,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9593,7 +9628,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9696,7 +9732,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9800,7 +9836,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9903,7 +9939,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10005,7 +10042,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10107,7 +10144,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10209,7 +10246,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10311,7 +10349,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10413,7 +10451,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10515,7 +10553,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10617,7 +10656,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10719,7 +10758,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10821,7 +10860,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10923,7 +10962,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11025,7 +11065,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11127,7 +11167,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11229,7 +11269,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11331,7 +11371,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11433,7 +11474,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11535,7 +11576,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11637,7 +11678,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11739,7 +11781,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11841,7 +11883,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11943,7 +11985,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12045,7 +12088,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12147,7 +12191,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12249,7 +12293,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12351,7 +12395,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12453,7 +12497,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12555,7 +12599,8 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12657,7 +12702,7 @@
 	drsChassisServiceTag=%parm[#8]%
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
