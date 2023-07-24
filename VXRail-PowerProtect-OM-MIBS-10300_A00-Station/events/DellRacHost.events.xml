@@ -216,6 +216,7 @@
 	  drsCAMessage=%parm[#8]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -619,6 +620,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -704,6 +706,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1131,6 +1134,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1301,6 +1305,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1557,6 +1562,7 @@
 	  drsAlertData=%parm[#6]%&lt;/p>
       </logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5126,6 +5132,7 @@
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5638,6 +5645,7 @@
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7071,6 +7079,7 @@
 	drsGlobalCurrStatus=%parm[#9]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
