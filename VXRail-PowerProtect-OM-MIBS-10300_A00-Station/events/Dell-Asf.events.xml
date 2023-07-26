@@ -66,7 +66,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapFanSPeedWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -90,6 +90,7 @@
 		asfTrapFanSpeedProblem trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -112,7 +113,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapFanSPeedProblemCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapFanSpeedProblem:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -158,7 +160,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapBatteryLowWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -181,7 +183,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapBatteryFailure trap received&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -204,7 +207,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapBatteryFailCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapBatteryFailure%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -250,7 +254,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapUnderVoltageWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -296,7 +300,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapUnderVoltageCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -342,7 +346,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapOverVoltageWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -366,6 +370,7 @@
 		asfTrapOverVoltage trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -388,7 +393,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapVoltageCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapOverVoltage%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -412,6 +418,7 @@
 		asfTrapCriticalDiscreteVoltage trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -434,7 +441,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCriticalDiscreteVoltageCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapCriticalDiscreteVoltage:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -480,7 +488,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapUnderTemperatureWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -526,7 +534,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapUnderTemperatureCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -572,7 +580,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapOverTemperatureWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -596,6 +604,7 @@
 		asfTrapOverTemperature trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -618,7 +627,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapOverTemperatureCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapOverTemperature:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -664,7 +674,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCaseIntrusionCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -710,7 +720,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapFanRedundancyLost trap received&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -733,7 +744,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapFanFullRedundancy trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapFanRedundancyLost:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -757,6 +769,7 @@
 		asfTrapPSRedundancyDegraded trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -780,6 +793,7 @@
 		asfTrapPSRedundancyLost trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -802,7 +816,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapPSFullRedundancy trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapPSRedundancyLost:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -826,6 +841,7 @@
 		asfTrapCpuThermalTrip trap received&lt;/p>
 	</logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -848,7 +864,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCpuThermalTripCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapCpuThermalTrip:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -872,6 +889,7 @@
 		asfTrapCpuBistError trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -894,7 +912,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCpuBistErrorCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapCpuBistErro:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -918,6 +937,7 @@
 		asfTrapCpuIErr trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -940,7 +960,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCpuIErrCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapCpuIErr:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -964,6 +985,7 @@
 		asfTrapCpuConfigError trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1032,7 +1054,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCpuConfigErrorCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapCpuConfigError:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1079,6 +1102,7 @@
 		asfTrapCpuNotPresent trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1124,7 +1148,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapCpuThrottleCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1194,6 +1218,7 @@
 		asfTrapPsFailure trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1216,7 +1241,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapPsFailureCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapPsFailure:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1262,7 +1288,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapPsPredictiveFailureCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1286,6 +1312,7 @@
 		asfTrapPsAcLost trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1308,7 +1335,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapPsAcBack trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapPsAcLost:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1331,7 +1359,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapSelCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1470,6 +1498,7 @@
 		asfTrapOverSystemPowerWarning trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1492,7 +1521,8 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapOverSystemPowerWarningCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/vendor/Dell/traps/asfTrapOverSystemPowerWarning:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1538,7 +1568,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapOverSystemPowerCriticalCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1584,7 +1614,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapPSUMismatchNormal trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1630,7 +1660,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapSystemPowerNormal trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1676,7 +1706,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapSystemPowerExceedsCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1700,6 +1730,7 @@
 		asfTrapModuleSDCardFailedError trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1723,6 +1754,7 @@
 		asfTrapModuleSDWriteProtectWarning trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1769,6 +1801,7 @@
 		asfTrapModuleSDCardNotPresent trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1792,6 +1825,7 @@
 		asfTrapSDRedundancyDegraded trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1837,7 +1871,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapSDFullRedundancy trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1862,7 +1896,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapUnderCurrentCleared trap received&lt;/p>
 	</logmsg>
-      <severity>Cleared</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -1938,6 +1972,7 @@
 	asfTrapSMBIOSUncorrectableCPU trap received&lt;/p>
 	</logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -1987,7 +2022,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModulePresent trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2012,7 +2047,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleAbsent trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
    </event>
    <event>
       <mask>
@@ -2088,6 +2123,7 @@
 	asfTrapInternalDualSDModuleFailure trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -2113,6 +2149,7 @@
 	asfTrapInternalDualSDModuleNormal trap received&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" clear-key="uei.opennms.org/traps/DELL-ASF-MIB/asfTrapInternalDualSDModuleFailure:%dpname%:%nodeid%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -2137,7 +2174,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleWriteProtected trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2162,7 +2199,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleWriteable trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2187,7 +2224,7 @@
       <logmsg dest="logndisplay">&lt;p>
 	asfTrapInternalDualSDModuleRedundant trap received&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
@@ -2213,6 +2250,7 @@
 	asfTrapInternalDualSDModuleRedundancyLost trap received&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -2263,6 +2301,7 @@
 	asfTrapOverUsageSensorWarning trap received&lt;/p>
 	</logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -2288,5 +2327,6 @@
 	asfTrapSensorUnresponsive trap received&lt;/p>
 	</logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:" alarm-type="3" auto-clean="false"/>
    </event>
 </events>
