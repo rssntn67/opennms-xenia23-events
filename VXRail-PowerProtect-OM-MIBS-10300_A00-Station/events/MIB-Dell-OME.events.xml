@@ -38,7 +38,7 @@
 	omeAlertSeverity=%parm[#3]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%:%parm[#3]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -151,7 +151,7 @@
 	omeAlertSeverity=%parm[#3]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%:%parm[#3]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -197,7 +197,7 @@
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid:%parm[#1]%:%parm[#2]%:%parm[#3]%%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid:%parm[#2]%" alarm-type="3" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -333,6 +333,6 @@
 	omeRawAlertInfo=%parm[#4]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%:%parm[#3]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
    </event>
 </events>
