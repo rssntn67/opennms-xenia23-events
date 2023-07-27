@@ -277,7 +277,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -663,7 +663,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -760,7 +760,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -953,7 +953,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1242,7 +1242,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1339,7 +1339,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1628,7 +1628,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1917,7 +1917,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2206,7 +2206,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2303,7 +2303,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2592,7 +2592,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2881,7 +2881,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3170,7 +3170,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3365,7 +3365,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3654,7 +3654,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3943,7 +3943,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4136,7 +4136,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4425,7 +4425,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4522,7 +4522,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4813,7 +4813,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5102,7 +5102,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5199,7 +5199,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5488,7 +5488,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5585,7 +5585,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5778,6 +5778,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5874,7 +5875,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6163,7 +6164,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6452,7 +6453,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6741,7 +6742,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -6838,6 +6839,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7222,7 +7224,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7417,7 +7419,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7706,7 +7708,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7803,7 +7805,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8092,7 +8094,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8381,7 +8383,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8670,6 +8672,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8958,7 +8961,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9247,7 +9250,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9536,7 +9539,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -9825,7 +9828,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10114,7 +10117,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10403,7 +10406,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10500,7 +10503,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -10793,7 +10796,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11082,7 +11085,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11371,7 +11374,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -11468,7 +11471,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12045,7 +12048,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12622,7 +12625,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -12911,7 +12914,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13200,7 +13203,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -13778,7 +13781,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -14643,7 +14646,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
