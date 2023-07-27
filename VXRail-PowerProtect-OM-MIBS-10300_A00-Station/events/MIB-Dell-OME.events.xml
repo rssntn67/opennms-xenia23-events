@@ -74,6 +74,7 @@
 	omeAlertDevice=%parm[#2]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" clear-key="uei.opennms.org/traps/MIB-Dell-OME/omeAlertSystemDown:%dpname%:%nodeid%:%parm[#2]%" alarm-type="2" auto-clean="false"/>
    </event>
    <event>
       <mask>
@@ -109,7 +110,7 @@
 	omeAlertDevice=%parm[#2]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%:%parm[#3]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
       <mask>
