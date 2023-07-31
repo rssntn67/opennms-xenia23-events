@@ -7465,7 +7465,7 @@
 	dmmDeviceServiceTag=%parm[#5]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#5]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
