@@ -63,7 +63,8 @@
 	os10BfdSessIfName=%parm[#4]%
 	os10BfdSessVrfName=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELLEMC-OS10-BFD-MIB/bfdSessDown:%dpname%:%nodeid%:%parm[#1]%" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="0" varbinddecodedstring="noDiagnostic"/>
@@ -143,7 +144,8 @@
 	os10BfdSessIfName=%parm[#4]%
 	os10BfdSessVrfName=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="1" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="0" varbinddecodedstring="noDiagnostic"/>
