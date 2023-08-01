@@ -25,7 +25,7 @@
 			physicalAdapterLinkUpTrap trap received
 			physicalAdapterIndex=%parm[#1]%&lt;/p>
 		</logmsg>
-      <severity>Normal</severity> clear tag parm 1
+      <severity>Normal</severity> 
 	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="2" auto-clean="false"/ clear-key = "uei.opennms.org/vendor/intel/traps/physicalAdapterLinkDownTrap:%dpname%:%nodeid%:%parm[#1]%">
    </event>
    <event>
