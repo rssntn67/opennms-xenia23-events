@@ -79,7 +79,8 @@
 	os10bgp4V2PeerLastErrorCodeReceived=%parm[#6]%
 	os10bgp4V2PeerState=%parm[#7]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Normal</severity>
+       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#5]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELLEMC-OS10-BGP4V2-MIB/os10bgp4V2BackwardTransition:%dpname%:%nodeid%:%parm[#3]%:%parm[#5]%" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="0" varbinddecodedstring="unknown"/>
@@ -194,7 +195,8 @@
 	os10bgp4V2PeerLastErrorReceivedText=%parm[#7]%
 	os10bgp4V2PeerState=%parm[#8]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#3]%:%parm[#5]%" alarm-type="1" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="0" varbinddecodedstring="unknown"/>
