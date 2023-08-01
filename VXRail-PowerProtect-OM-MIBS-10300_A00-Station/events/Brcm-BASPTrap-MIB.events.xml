@@ -51,7 +51,8 @@
 	trapCauseDirection=%parm[#3]%
 	trapAdapterActivityCause=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="adapterActive"/>
