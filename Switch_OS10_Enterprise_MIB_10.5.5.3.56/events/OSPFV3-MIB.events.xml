@@ -13,9 +13,13 @@
             <mename>specific</mename>
             <mevalue>1</mevalue>
          </maskelement>
+         <varbind>
+            <vbnumber>2</vbnumber>
+            <vbvalue>1</vbvalue>
+         </varbind>
       </mask>
-      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3VirtIfStateChange</uei>
-      <event-label>OSPFV3-MIB defined trap event: ospfv3VirtIfStateChange</event-label>
+      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3VirtIfStateChangeDown</uei>
+      <event-label>OSPFV3-MIB defined trap event: ospfv3VirtIfStateChangeDown</event-label>
       <descr>
 &lt;p>An ospfv3VirtIfStateChange notification signifies that
          there has been a change in the state of an OSPFv3 virtual
@@ -41,7 +45,62 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3VirtIfState=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="1" auto-clean="true"/>
+      <varbindsdecode>
+         <parmid>parm[#2]</parmid>
+         <decode varbindvalue="1" varbinddecodedstring="down"/>
+         <decode varbindvalue="4" varbinddecodedstring="pointToPoint"/>
+      </varbindsdecode>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.2.1.191</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>1</mevalue>
+         </maskelement>
+         <varbind>
+            <vbnumber>2</vbnumber>
+            <vbvalue>4</vbvalue>
+         </varbind>
+      </mask>
+      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3VirtIfStateChangeUp</uei>
+      <event-label>OSPFV3-MIB defined trap event: ospfv3VirtIfStateChangeUp</event-label>
+      <descr>
+&lt;p>An ospfv3VirtIfStateChange notification signifies that
+         there has been a change in the state of an OSPFv3 virtual
+         interface.
+
+         This notification should be generated when the interface
+         state regresses (e.g., goes from Point-to-Point to Down)
+         or progresses to a terminal state (i.e., Point-to-Point).&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3RouterId&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3VirtIfState&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>
+		down(1)
+		pointToPoint(4)
+	&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	ospfv3VirtIfStateChange trap received
+	ospfv3RouterId=%parm[#1]%
+	ospfv3VirtIfState=%parm[#2]%&lt;/p>
+	</logmsg>
+      <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" clear-key="uei.opennms.org/traps/OSPFV3-MIB/ospfv3VirtIfStateChangeDown:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="2" auto-clean="true"/>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -101,7 +160,7 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3NbrState=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -161,7 +220,7 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3VirtNbrState=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -255,7 +314,7 @@
 	ospfv3ConfigErrorType=%parm[#4]%
 	ospfv3PacketType=%parm[#5]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -360,7 +419,7 @@
 	ospfv3ConfigErrorType=%parm[#3]%
 	ospfv3PacketType=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -450,7 +509,7 @@
 	ospfv3PacketSrc=%parm[#3]%
 	ospfv3PacketType=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -522,7 +581,7 @@
 	ospfv3VirtIfState=%parm[#2]%
 	ospfv3PacketType=%parm[#3]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -573,7 +632,8 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3ExtAreaLsdbLimit=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="3" auto-clean="true"/>
    </event>
    <event>
       <mask>
@@ -611,7 +671,140 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3ExtAreaLsdbLimit=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="3" auto-clean="true"/>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.2.1.191</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>10</mevalue>
+         </maskelement>
+         <varbind>
+            <vbnumber>2</vbnumber>
+            <vbvalue>4</vbvalue>
+         </varbind>
+      </mask>
+      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3IfStateChangeUp</uei>
+      <event-label>OSPFV3-MIB defined trap event: ospfv3IfStateChangeUp</event-label>
+      <descr>
+&lt;p>An ospfv3IfStateChange notification signifies that there
+         has been a change in the state of a non-virtual
+         OSPFv3 interface.  This notification should be generated
+         when the interface state regresses (e.g., goes
+         from DR to Down) or progresses to a terminal
+         state (i.e., Point-to-Point, DR Other, DR, or
+         Backup).&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3RouterId&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3IfState&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>
+		down(1)
+		loopback(2)
+		waiting(3)
+		pointToPoint(4)
+		designatedRouter(5)
+		backupDesignatedRouter(6)
+		otherDesignatedRouter(7)
+		standby(8)
+	&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	ospfv3IfStateChange trap received
+	ospfv3RouterId=%parm[#1]%
+	ospfv3IfState=%parm[#2]%&lt;/p>
+	</logmsg>
+      <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="2" clear-key="uei.opennms.org/traps/OSPFV3-MIB/ospfv3IfStateChangeDown:%dpname%:%nodeid%:%interface%:%parm[#1]%" auto-clean="true"/>
+      <varbindsdecode>
+         <parmid>parm[#2]</parmid>
+         <decode varbindvalue="1" varbinddecodedstring="down"/>
+         <decode varbindvalue="2" varbinddecodedstring="loopback"/>
+         <decode varbindvalue="3" varbinddecodedstring="waiting"/>
+         <decode varbindvalue="4" varbinddecodedstring="pointToPoint"/>
+         <decode varbindvalue="5" varbinddecodedstring="designatedRouter"/>
+         <decode varbindvalue="6" varbinddecodedstring="backupDesignatedRouter"/>
+         <decode varbindvalue="7" varbinddecodedstring="otherDesignatedRouter"/>
+         <decode varbindvalue="8" varbinddecodedstring="standby"/>
+      </varbindsdecode>
+   </event>
+   <event>
+      <mask>
+         <maskelement>
+            <mename>id</mename>
+            <mevalue>.1.3.6.1.2.1.191</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>generic</mename>
+            <mevalue>6</mevalue>
+         </maskelement>
+         <maskelement>
+            <mename>specific</mename>
+            <mevalue>10</mevalue>
+         </maskelement>
+         <varbind>
+            <vbnumber>2</vbnumber>
+            <vbvalue>1</vbvalue>
+         </varbind>
+      </mask>
+      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3IfStateChangeDown</uei>
+      <event-label>OSPFV3-MIB defined trap event: ospfv3IfStateChangeDown</event-label>
+      <descr>
+&lt;p>An ospfv3IfStateChange notification signifies that there
+         has been a change in the state of a non-virtual
+         OSPFv3 interface.  This notification should be generated
+         when the interface state regresses (e.g., goes
+         from DR to Down) or progresses to a terminal
+         state (i.e., Point-to-Point, DR Other, DR, or
+         Backup).&lt;/p>&lt;table>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3RouterId&lt;/b>&lt;/td>&lt;td>
+	%parm[#1]%;&lt;/td>&lt;td>&lt;p>&lt;/p>&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>&lt;b>
+
+	ospfv3IfState&lt;/b>&lt;/td>&lt;td>
+	%parm[#2]%;&lt;/td>&lt;td>&lt;p>
+		down(1)
+		loopback(2)
+		waiting(3)
+		pointToPoint(4)
+		designatedRouter(5)
+		backupDesignatedRouter(6)
+		otherDesignatedRouter(7)
+		standby(8)
+	&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+	</descr>
+      <logmsg dest="logndisplay">&lt;p>
+	ospfv3IfStateChange trap received
+	ospfv3RouterId=%parm[#1]%
+	ospfv3IfState=%parm[#2]%&lt;/p>
+	</logmsg>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[#1]%" alarm-type="1" auto-clean="true"/>
+      <varbindsdecode>
+         <parmid>parm[#2]</parmid>
+         <decode varbindvalue="1" varbinddecodedstring="down"/>
+         <decode varbindvalue="2" varbinddecodedstring="loopback"/>
+         <decode varbindvalue="3" varbinddecodedstring="waiting"/>
+         <decode varbindvalue="4" varbinddecodedstring="pointToPoint"/>
+         <decode varbindvalue="5" varbinddecodedstring="designatedRouter"/>
+         <decode varbindvalue="6" varbinddecodedstring="backupDesignatedRouter"/>
+         <decode varbindvalue="7" varbinddecodedstring="otherDesignatedRouter"/>
+         <decode varbindvalue="8" varbinddecodedstring="standby"/>
+      </varbindsdecode>
    </event>
    <event>
       <mask>
@@ -628,7 +821,7 @@
             <mevalue>10</mevalue>
          </maskelement>
       </mask>
-      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3IfStateChange</uei>
+      <uei>uei.opennms.org/traps/OSPFV3-MIB/ospfv3IfStateChangeUp</uei>
       <event-label>OSPFV3-MIB defined trap event: ospfv3IfStateChange</event-label>
       <descr>
 &lt;p>An ospfv3IfStateChange notification signifies that there
@@ -661,7 +854,7 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3IfState=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="down"/>
@@ -716,7 +909,7 @@
 	ospfv3RouterId=%parm[#1]%
 	ospfv3AreaNssaTranslatorState=%parm[#2]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="enabled"/>
@@ -781,7 +974,7 @@
 	ospfv3RestartInterval=%parm[#3]%
 	ospfv3RestartExitReason=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="notRestarting"/>
@@ -853,7 +1046,7 @@
 	ospfv3NbrRestartHelperAge=%parm[#3]%
 	ospfv3NbrRestartHelperExitReason=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="notHelping"/>
@@ -925,7 +1118,7 @@
 	ospfv3VirtNbrRestartHelperAge=%parm[#3]%
 	ospfv3VirtNbrRestartHelperExitReason=%parm[#4]%&lt;/p>
 	</logmsg>
-      <severity>Indeterminate</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#2]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="notHelping"/>
