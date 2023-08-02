@@ -89,7 +89,7 @@
       <logmsg dest="logndisplay">&lt;p>
 		asfTrapFanSpeedProblem trap received&lt;/p>
 	</logmsg>
-      <severity>Minor</severity>
+      <severity>Major</severity>
 	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="1" auto-clean="false"/>
    </event>
    <event>
