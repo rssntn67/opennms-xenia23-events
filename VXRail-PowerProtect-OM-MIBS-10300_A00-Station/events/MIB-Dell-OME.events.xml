@@ -37,8 +37,7 @@
 	omeAlertDevice=%parm[#2]%
 	omeAlertSeverity=%parm[#3]%&lt;/p>
 	</logmsg>
-      <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <severity>Normal</severity>
    </event>
    <event>
       <mask>
