@@ -616,7 +616,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -890,7 +890,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -982,6 +982,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertTemperatureProbeNonRecoverable:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1163,8 +1164,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1256,7 +1257,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1348,6 +1349,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertCoolingDeviceNonRecoverable:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1529,8 +1531,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1622,7 +1624,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1714,6 +1716,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertVoltageProbeNonRecoverable:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1895,8 +1898,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1988,7 +1991,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2080,6 +2083,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertAmperageProbeNonRecoverable:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2261,7 +2265,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
+      <severity>Minor</severity>
       <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
@@ -2354,7 +2358,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2446,6 +2450,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertChassisIntrusionDetected:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2536,7 +2541,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2628,6 +2634,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertDriveBayDetected:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2718,7 +2725,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2809,7 +2817,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2901,6 +2910,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertRedundancyLost:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2991,7 +3001,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Major</severity>
+      <severity>Minor</severity>
 	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
@@ -3084,7 +3094,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3176,6 +3186,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertPowerSupplyFailure:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3358,7 +3369,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3450,6 +3461,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertMemoryDeviceNonRecoverable:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3724,7 +3736,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4180,7 +4192,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Major</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4546,7 +4559,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5188,6 +5202,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="2" clear-key="uei.opennms.org/traps/MIB-Dell-10892/alertMemoryDevicePPRFail:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5279,7 +5294,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5370,8 +5385,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -5462,7 +5476,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Minor</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
