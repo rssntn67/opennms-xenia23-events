@@ -250,7 +250,8 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Critical</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -341,7 +342,7 @@
 	alertPreviousStatus=%parm[#5]%
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -433,7 +434,7 @@
 	alertData=%parm[#6]%&lt;/p>
 	</logmsg>
       <severity>Minor</severity>
-      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%:%parm[#2]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#1]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
