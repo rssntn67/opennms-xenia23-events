@@ -374,7 +374,7 @@
 	alertChassisName=%parm[#10]%
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
-      <severity>Normal</severity>
+      <severity>Warning</severity>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1052,6 +1052,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="2" clear-key="uei.opennms.org/traps/IDRAC-MIB/alertProcessorDeviceStatusFailure:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1244,7 +1245,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4235,6 +4236,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="2" clear-key="uei.opennms.org/traps/IDRAC-MIB/alertPowerSupplyFailure:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -4427,7 +4429,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7034,6 +7036,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="2" clear-key="uei.opennms.org/traps/IDRAC-MIB/alertTemperatureProbeFailure:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7904,6 +7907,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="2" clear-key="uei.opennms.org/traps/IDRAC-MIB/alertVoltageProbeFailure:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -8096,7 +8100,7 @@
 	alertRacFQDN=%parm[#11]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#7]%:%parm[#10]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#3]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
