@@ -65,6 +65,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2AmperageProbeFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -217,7 +218,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -295,6 +296,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2BatteryFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -447,7 +449,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1670,6 +1672,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2PowerSupplyFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -1822,7 +1825,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -2280,7 +2283,8 @@
 	dmmProductChassisName=%parm[#6]%
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
-      <severity>Warning</severity>
+      <severity>Major</severity>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3121,6 +3125,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2TemperatureProbeFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3273,7 +3278,8 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="1" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2TemperatureProbeFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3350,6 +3356,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alert2VoltageProbeFailure:%dpname%:%nodeid%:%parm[#6]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -3502,7 +3509,7 @@
 	dmmChassisServiceTag=%parm[#7]%&lt;/p>
 	</logmsg>
       <severity>Major</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#6]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7465,7 +7472,7 @@
 	dmmDeviceServiceTag=%parm[#5]%&lt;/p>
 	</logmsg>
       <severity>Critical</severity>
-	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#5]%" alarm-type="3" auto-clean="false"/>
+	  <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#5]%" alarm-type="1" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
@@ -7598,6 +7605,7 @@
 	dmmDeviceServiceTag=%parm[#5]%&lt;/p>
 	</logmsg>
       <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%parm[#5]%" alarm-type="2" clear-key="uei.opennms.org/traps/DELL-MM-MIB/alertGenericCritical:%dpname%:%nodeid%:%parm[#5]%" auto-clean="false"/>
       <varbindsdecode>
          <parmid>parm[#4]</parmid>
          <decode varbindvalue="1" varbinddecodedstring="other"/>
